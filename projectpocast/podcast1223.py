@@ -7,10 +7,10 @@ import pprint
 import streamlit as st
 
 transcript_endpoint = 'https://api.assemblyai.com/v2/transcript'
-assemblyai_headers = {'authorization': 'a10699bee56b4f51b2a3e7abdd5bba3e'}
+assemblyai_headers = {'authorization': 'api_key'}
 
 listennotes_episode_endpoint = "https://listen-api.listennotes.com/api/v2/episodes"
-listennotes_headers = {'X-ListenAPI-Key': '7fc45ec5e69546519f24af66cc4a4b1b'}
+listennotes_headers = {'X-ListenAPI-Key': 'api_key'}
 
 def get_episode_audio_url(episode_id):
     url = listennotes_episode_endpoint + '/' + episode_id
