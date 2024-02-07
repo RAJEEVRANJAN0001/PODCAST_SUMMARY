@@ -1,3 +1,0 @@
-API_KEY_ASSEMBLYAI = 'api_key'
-
-API_KEY_LISTENNOTES = 'api_key'
